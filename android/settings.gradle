@@ -1,0 +1,9 @@
+rootProject.name = 'bomdia'
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-image-marker'
+project(':react-native-image-marker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-marker/android')
+
+include ':app'
